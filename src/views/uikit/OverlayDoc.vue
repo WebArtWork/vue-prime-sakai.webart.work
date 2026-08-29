@@ -1,7 +1,7 @@
 <script setup>
 import { ProductService } from '@/service/ProductService';
-import { useConfirm } from 'primevue/useconfirm';
-import { useToast } from 'primevue/usetoast';
+import { useConfirm } from '@wawjs/vue-prime/useconfirm';
+import { useToast } from '@wawjs/vue-prime/usetoast';
 import { onMounted, ref } from 'vue';
 
 const display = ref(false);

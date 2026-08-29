@@ -1,7 +1,7 @@
 <script setup>
 import { CustomerService } from '@/service/CustomerService';
 import { ProductService } from '@/service/ProductService';
-import { FilterMatchMode, FilterOperator } from '@primevue/core/api';
+import { FilterMatchMode, FilterOperator } from '@wawjs/vue-prime-core/api';
 import { onBeforeMount, reactive, ref } from 'vue';
 
 const customers1 = ref(null);

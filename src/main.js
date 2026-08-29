@@ -2,10 +2,10 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 
-import Aura from '@primeuix/themes/aura';
-import PrimeVue from 'primevue/config';
-import ConfirmationService from 'primevue/confirmationservice';
-import ToastService from 'primevue/toastservice';
+import Aura from '@wawjs/css-prime-themes/aura';
+import PrimeVue from '@wawjs/vue-prime/config';
+import ConfirmationService from '@wawjs/vue-prime/confirmationservice';
+import ToastService from '@wawjs/vue-prime/toastservice';
 
 import '@/assets/tailwind.css';
 import '@/assets/styles.scss';

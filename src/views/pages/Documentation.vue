@@ -53,13 +53,13 @@ npm run dev</code></pre>
 
         <p class="text-lg mb-4">Add Prime related libraries to the project.</p>
         <pre class="app-code">
-<code>npm install primevue @primevue/themes tailwindcss-primeui primeicons
-npm install --save-dev @primevue/nuxt-module</code></pre>
+<code>npm install primevue @wawjs/vue-prime-themes tailwindcss-primeui primeicons
+npm install --save-dev @wawjs/vue-prime-nuxt-module</code></pre>
 
         <p class="text-lg mb-4">Add PrimeVue-Nuxt module to <span class="bg-highlight px-2 py-1 rounded-border not-italic text-base">nuxt.config.js</span></p>
         <pre class="app-code">
 <code>modules: [
-    '@primevue/nuxt-module',
+    '@wawjs/vue-prime-nuxt-module',
 ]</code></pre>
 
         <p class="text-lg mb-4">Install <a href="https://tailwindcss.com/docs/guides/nuxtjs" class="font-medium text-primary hover:underline">Tailwind CSS</a> with Nuxt using official documentation.</p>
@@ -72,7 +72,7 @@ npm install --save-dev @primevue/nuxt-module</code></pre>
 
         <p class="text-lg mb-4">Add PrimeVue to in <span class="bg-highlight px-2 py-1 rounded-border not-italic text-base">nuxt.config.js</span></p>
         <pre class="app-code">
-<code>import Aura from '@primevue/themes/aura';
+<code>import Aura from '@wawjs/vue-prime-themes/aura';
 
 primevue: {
     options: {
